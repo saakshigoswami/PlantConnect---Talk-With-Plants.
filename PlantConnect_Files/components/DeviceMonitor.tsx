@@ -1422,7 +1422,6 @@ const DeviceMonitor: React.FC<DeviceMonitorProps> = ({ onSaveSession, onSessionD
         </div>
       </div>
       {/* End grid wrapper */}
-      </div>
 
     </div>
   );
