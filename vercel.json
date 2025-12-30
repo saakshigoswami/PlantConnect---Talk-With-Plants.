@@ -1,9 +1,8 @@
 {
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist",
-  "installCommand": "npm install",
+  "buildCommand": "cd PlantConnect_Files && npm install && npm run build",
+  "outputDirectory": "PlantConnect_Files/dist",
+  "installCommand": "cd PlantConnect_Files && npm install",
   "framework": "vite",
-  "rootDirectory": "PlantConnect_Files",
   "rewrites": [
     {
       "source": "/(.*)",
