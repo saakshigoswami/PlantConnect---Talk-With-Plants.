@@ -21,7 +21,7 @@ This project demonstrates **real-time AI on data in motion** by:
 
 ## 📸 Overview
 
-PlantBuddy is an immersive bio-interaction system that lets you **touch your plant, talk to your plant, and even mint its emotions/data to Aptos blockchain with IPFS storage**.
+PlantBuddy is an immersive bio-interaction system that lets you **touch your plant, talk to your plant, and even mint its emotions/data to Confluence Coud**.
 
 Using:
 
@@ -30,8 +30,6 @@ Using:
 * 🗣️ **AI-powered plant conversations**
 * ⚡ **Confluent Cloud** - Real-time data streaming
 * 🤖 **Google Cloud Vertex AI/Gemini** - Stream analysis and predictions
-* 🛠️ **Aptos Wallet (Petra)**
-* 🗄️ **Aptos Network (Testnet/Mainnet) + IPFS**
 * ⚛️ **React + TypeScript**
 * 🎨 **TailwindCSS UI**
 
@@ -83,22 +81,6 @@ You get a magical interface to interact with your plants — scientifically and 
 * **Continuous analysis** - Analyzes data windows every 5 seconds
 * Powered by Google Cloud Vertex AI and Gemini models
 
-### 🌐 **Decentralized Upload to Aptos**
-
-<img width="1914" height="946" alt="image" src="https://github.com/user-attachments/assets/f3230aa9-cbff-4f46-a56c-0330414cea58" />
-Mint any plant interaction session to Aptos Testnet or Mainnet:
-
-* Fully signed using Aptos Wallet (Petra)
-* Data stored on IPFS with on-chain certification
-* Tamper-proof JSON packet upload
-* Perfect for:
-
-  * Tracking plant well-being
-  * Scientific analysis
-  * NFTs / collectibles
-  * Hackathon decentralized data challenges
-
----
 
 # 🛠️ **Tech Stack**
 
@@ -121,11 +103,8 @@ Mint any plant interaction session to Aptos Testnet or Mainnet:
 * Web Audio API
 * **Confluent Cloud REST API** - Kafka streaming
 * **Google Cloud Vertex AI / Gemini API** - AI analysis
-* Aptos Wallet (Petra)
-* IPFS Storage
-* Aptos Blockchain
 
----
+----
 
 # 🚀 **How It Works**
 
@@ -142,7 +121,7 @@ Your Touch → Arduino → Web Serial → React UI
                                     ↓
                     AI Engine → Voice / Music  
                                     ↓
-                    IPFS Storage + Aptos Blockchain
+                    Confluent Cloud Storage
 ```
 
 ### **Streaming Flow:**
@@ -273,7 +252,6 @@ Make sure to enable:
 
 * ✔ Web Serial API (for Arduino connection)
 * ✔ Microphone permissions (for voice input)
-* ✔ Petra Wallet Extension (for Aptos blockchain)
 * ✔ Confluent Cloud credentials (for streaming)
 * ✔ Google Cloud API key (for AI analysis)
 
