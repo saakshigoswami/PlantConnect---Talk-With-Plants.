@@ -189,17 +189,6 @@ Your Touch → Arduino → Web Serial → React UI
    - Anomalies trigger alerts
    - Recommendations appear automatically
 
-# 🔐 **Aptos Upload Workflow**
-
-1. Click **Mint to Aptos**
-2. Choose:
-
-   * Testnet (Free)
-   * Mainnet (Requires APT)
-3. Approve the Aptos Wallet (Petra) transaction
-4. Watch the magic happen
-5. Receive your **IPFS Hash** + **Transaction Hash** for on-chain verification
-
 
 # 🧪 **Development Setup**
 
